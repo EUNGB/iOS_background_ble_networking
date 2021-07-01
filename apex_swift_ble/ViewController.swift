@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     var manager: CBCentralManager!
     var peripheral: CBPeripheral!
     
+    let MINI_BEACON_UUID = CBUUID(string: "0000fff0-0000-1000-8000-00805f9b34fb")
     let BEACON_SERVICE_UUID = CBUUID(string: "49535343-FE7D-4AE5-8FA9-9FAFD205E455")
     let DEVICE_CHARACTERISTIC_UUID = CBUUID(string: "49535343-1E4D-4BD9-BA61-23C647249616")
     var bles: [CBPeripheral] = []
@@ -114,7 +115,9 @@ extension ViewController: CBCentralManagerDelegate, CBPeripheralDelegate {
     func centralManagerDidUpdateState(_ central: CBCentralManager) {
         if central.state == CBManagerState.poweredOn {
             print("Bluetooth on")
-            central.scanForPeripherals(withServices: nil, options: nil)
+            let options = [CBCentralManagerScanOptionAllowDuplicatesKey: true]
+            // self.manager.scanForPeripherals(withServices: nil, options: nil)
+            self.manager.scanForPeripherals(withServices: [MINI_BEACON_UUID], options: options)
         } else {
             // 꺼진 경우 설정으로 이동할 수 있는 팝업창 등 구현 가능
             print("Bluetooth not available")
@@ -122,7 +125,8 @@ extension ViewController: CBCentralManagerDelegate, CBPeripheralDelegate {
     }
     
     func centralManager(_ central: CBCentralManager, didDiscover peripheral: CBPeripheral, advertisementData: [String : Any], rssi RSSI: NSNumber) {
-        
+        print("didDiscover called")
+            
         let name = peripheral.name ?? ""
         if name != "" {
             for i in 0 ..< bles.count {
@@ -138,7 +142,7 @@ extension ViewController: CBCentralManagerDelegate, CBPeripheralDelegate {
                 manager.connect(bles[i], options: nil)
                 bles[i].delegate = self
                 stopBleScan()
-                stopMonitoring()
+                stopMonitoring() // 연결되면 모니터링 종료
             }
         }
         print(bles)
@@ -146,6 +150,7 @@ extension ViewController: CBCentralManagerDelegate, CBPeripheralDelegate {
     
     func centralManager(_ central: CBCentralManager, didConnect peripheral: CBPeripheral) {
         print("Connected!")
+        
         // 네트워킹
         
         
