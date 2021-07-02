@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,9 @@
 		266DC205268D419A00CFA0F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 266DC203268D419A00CFA0F0 /* LaunchScreen.storyboard */; };
 		266DC210268D419A00CFA0F0 /* apex_swift_bleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266DC20F268D419A00CFA0F0 /* apex_swift_bleTests.swift */; };
 		266DC21B268D419B00CFA0F0 /* apex_swift_bleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266DC21A268D419B00CFA0F0 /* apex_swift_bleUITests.swift */; };
+		3EF84FA9E9A7EEB65A52F074 /* Pods_apex_swift_bleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9357F0B2B36A197CECE5C2D6 /* Pods_apex_swift_bleTests.framework */; };
+		53117D024B9780C5BF6CE312 /* Pods_apex_swift_ble_apex_swift_bleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B156288E990ED9244DA1D599 /* Pods_apex_swift_ble_apex_swift_bleUITests.framework */; };
+		9A2D0AB914C8798FB999E54B /* Pods_apex_swift_ble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08087C44F55064F3B300CA3B /* Pods_apex_swift_ble.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08087C44F55064F3B300CA3B /* Pods_apex_swift_ble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_apex_swift_ble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		266DC1F5268D419900CFA0F0 /* apex_swift_ble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = apex_swift_ble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		266DC1F8268D419900CFA0F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		266DC1FA268D419900CFA0F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +53,14 @@
 		266DC216268D419A00CFA0F0 /* apex_swift_bleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = apex_swift_bleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		266DC21A268D419B00CFA0F0 /* apex_swift_bleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apex_swift_bleUITests.swift; sourceTree = "<group>"; };
 		266DC21C268D419B00CFA0F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28F584E41C47306A6E1F8239 /* Pods-apex_swift_ble-apex_swift_bleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apex_swift_ble-apex_swift_bleUITests.release.xcconfig"; path = "Target Support Files/Pods-apex_swift_ble-apex_swift_bleUITests/Pods-apex_swift_ble-apex_swift_bleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		34F1D7C7D14EC324852C507E /* Pods-apex_swift_bleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apex_swift_bleTests.debug.xcconfig"; path = "Target Support Files/Pods-apex_swift_bleTests/Pods-apex_swift_bleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C68B918AA7256B35420C728 /* Pods-apex_swift_ble-apex_swift_bleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apex_swift_ble-apex_swift_bleUITests.debug.xcconfig"; path = "Target Support Files/Pods-apex_swift_ble-apex_swift_bleUITests/Pods-apex_swift_ble-apex_swift_bleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		53540970404EA0D719FFC6B3 /* Pods-apex_swift_ble.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apex_swift_ble.release.xcconfig"; path = "Target Support Files/Pods-apex_swift_ble/Pods-apex_swift_ble.release.xcconfig"; sourceTree = "<group>"; };
+		9357F0B2B36A197CECE5C2D6 /* Pods_apex_swift_bleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_apex_swift_bleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B156288E990ED9244DA1D599 /* Pods_apex_swift_ble_apex_swift_bleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_apex_swift_ble_apex_swift_bleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE25EBB39240AA91C5D4372A /* Pods-apex_swift_bleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apex_swift_bleTests.release.xcconfig"; path = "Target Support Files/Pods-apex_swift_bleTests/Pods-apex_swift_bleTests.release.xcconfig"; sourceTree = "<group>"; };
+		E1B50C2F7EAD168B4EF14AE0 /* Pods-apex_swift_ble.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apex_swift_ble.debug.xcconfig"; path = "Target Support Files/Pods-apex_swift_ble/Pods-apex_swift_ble.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A2D0AB914C8798FB999E54B /* Pods_apex_swift_ble.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EF84FA9E9A7EEB65A52F074 /* Pods_apex_swift_bleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53117D024B9780C5BF6CE312 /* Pods_apex_swift_ble_apex_swift_bleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1AF4CB529DD22F2639265D48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08087C44F55064F3B300CA3B /* Pods_apex_swift_ble.framework */,
+				B156288E990ED9244DA1D599 /* Pods_apex_swift_ble_apex_swift_bleUITests.framework */,
+				9357F0B2B36A197CECE5C2D6 /* Pods_apex_swift_bleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		266DC1EC268D419900CFA0F0 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,8 @@
 				266DC20E268D419A00CFA0F0 /* apex_swift_bleTests */,
 				266DC219268D419B00CFA0F0 /* apex_swift_bleUITests */,
 				266DC1F6268D419900CFA0F0 /* Products */,
+				81AD389823348F80DCA6820A /* Pods */,
+				1AF4CB529DD22F2639265D48 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +155,19 @@
 			path = apex_swift_bleUITests;
 			sourceTree = "<group>";
 		};
+		81AD389823348F80DCA6820A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1B50C2F7EAD168B4EF14AE0 /* Pods-apex_swift_ble.debug.xcconfig */,
+				53540970404EA0D719FFC6B3 /* Pods-apex_swift_ble.release.xcconfig */,
+				4C68B918AA7256B35420C728 /* Pods-apex_swift_ble-apex_swift_bleUITests.debug.xcconfig */,
+				28F584E41C47306A6E1F8239 /* Pods-apex_swift_ble-apex_swift_bleUITests.release.xcconfig */,
+				34F1D7C7D14EC324852C507E /* Pods-apex_swift_bleTests.debug.xcconfig */,
+				DE25EBB39240AA91C5D4372A /* Pods-apex_swift_bleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 266DC21F268D419B00CFA0F0 /* Build configuration list for PBXNativeTarget "apex_swift_ble" */;
 			buildPhases = (
+				8B12BD6CC528C9A3672C8C5E /* [CP] Check Pods Manifest.lock */,
 				266DC1F1268D419900CFA0F0 /* Sources */,
 				266DC1F2268D419900CFA0F0 /* Frameworks */,
 				266DC1F3268D419900CFA0F0 /* Resources */,
+				FA51621F2AD63B77C164879C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 266DC222268D419B00CFA0F0 /* Build configuration list for PBXNativeTarget "apex_swift_bleTests" */;
 			buildPhases = (
+				9422E9A050A49BBDBBE4680B /* [CP] Check Pods Manifest.lock */,
 				266DC207268D419A00CFA0F0 /* Sources */,
 				266DC208268D419A00CFA0F0 /* Frameworks */,
 				266DC209268D419A00CFA0F0 /* Resources */,
@@ -170,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 266DC225268D419B00CFA0F0 /* Build configuration list for PBXNativeTarget "apex_swift_bleUITests" */;
 			buildPhases = (
+				44299DED1C4659D83581E6DA /* [CP] Check Pods Manifest.lock */,
 				266DC212268D419A00CFA0F0 /* Sources */,
 				266DC213268D419A00CFA0F0 /* Frameworks */,
 				266DC214268D419A00CFA0F0 /* Resources */,
+				439E9D14D686A88B244ECC09 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +297,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		439E9D14D686A88B244ECC09 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-apex_swift_ble-apex_swift_bleUITests/Pods-apex_swift_ble-apex_swift_bleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-apex_swift_ble-apex_swift_bleUITests/Pods-apex_swift_ble-apex_swift_bleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-apex_swift_ble-apex_swift_bleUITests/Pods-apex_swift_ble-apex_swift_bleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44299DED1C4659D83581E6DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-apex_swift_ble-apex_swift_bleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B12BD6CC528C9A3672C8C5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-apex_swift_ble-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9422E9A050A49BBDBBE4680B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-apex_swift_bleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA51621F2AD63B77C164879C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-apex_swift_ble/Pods-apex_swift_ble-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-apex_swift_ble/Pods-apex_swift_ble-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-apex_swift_ble/Pods-apex_swift_ble-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		266DC1F1268D419900CFA0F0 /* Sources */ = {
@@ -433,6 +581,7 @@
 		};
 		266DC220268D419B00CFA0F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1B50C2F7EAD168B4EF14AE0 /* Pods-apex_swift_ble.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +601,7 @@
 		};
 		266DC221268D419B00CFA0F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53540970404EA0D719FFC6B3 /* Pods-apex_swift_ble.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +621,7 @@
 		};
 		266DC223268D419B00CFA0F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34F1D7C7D14EC324852C507E /* Pods-apex_swift_bleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +643,7 @@
 		};
 		266DC224268D419B00CFA0F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE25EBB39240AA91C5D4372A /* Pods-apex_swift_bleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,6 +665,7 @@
 		};
 		266DC226268D419B00CFA0F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C68B918AA7256B35420C728 /* Pods-apex_swift_ble-apex_swift_bleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +685,7 @@
 		};
 		266DC227268D419B00CFA0F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28F584E41C47306A6E1F8239 /* Pods-apex_swift_ble-apex_swift_bleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

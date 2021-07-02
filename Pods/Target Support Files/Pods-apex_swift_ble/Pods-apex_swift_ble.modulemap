@@ -1,0 +1,6 @@
+framework module Pods_apex_swift_ble {
+  umbrella header "Pods-apex_swift_ble-umbrella.h"
+
+  export *
+  module * { export * }
+}

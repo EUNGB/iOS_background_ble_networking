@@ -16,4 +16,6 @@ target 'apex_swift_ble' do
     # Pods for testing
   end
 
+pod 'Alamofire', '~> 5.2'
+
 end

@@ -1,0 +1,6 @@
+framework module Pods_apex_swift_ble_apex_swift_bleUITests {
+  umbrella header "Pods-apex_swift_ble-apex_swift_bleUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
